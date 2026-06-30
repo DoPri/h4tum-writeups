@@ -2,7 +2,8 @@
 
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** incontinent
-- **Category:** Pwn
+- **Category:** pwn
+- **Solved by:** [dopri](https://github.com/DoPri/)
 - **Remote:** `chals.cyberjousting.com:1366`
 
 The description states that the flag lives in the program on the remote server and suggests making it "a little more leaky." We are given `incontinent_dist`, a dynamically linked x86-64 binary (not stripped).

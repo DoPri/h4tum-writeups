@@ -3,6 +3,7 @@
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** angr-management
 - **Category:** Reverse Engineering
+- **Solved by:** [dopri](https://github.com/DoPri/)
 - **Remote:** `chals.cyberjousting.com:1368`
 
 The description says the author built a maze using `goto` statements and that we must navigate it successfully to receive the flag. The distributed `angr_management_test` binary contains a dummy flag; the real flag is on the remote instance. The note also mentions that angr could be used, which matches the challenge name.

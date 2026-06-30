@@ -2,7 +2,8 @@
 
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** intro-2
-- **Category:** Pwn
+- **Category:** pwn
+- **Solved by:** [dopri](https://github.com/DoPri/)
 - **Remote:** `chals.cyberjousting.com:1367`
 
 The note in `info.txt` mentions that `byuctf{welcome_to_rev_fellas}` belonged to a separate "intro 1" challenge. Intro 2 itself is solved by exploiting the remote `intro` binary. The service runs inside `pwn.red/jail` (60 second time limit, 20 MB memory, per the `Dockerfile`).

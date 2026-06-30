@@ -3,6 +3,7 @@
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** pickle-rick
 - **Category:** Reverse Engineering
+- **Solved by:** [dopri](https://github.com/DoPri/)
 
 We receive `binary` (a stripped static ELF), `pickled.txt` (a large text file), and no other hints about the encoding.
 

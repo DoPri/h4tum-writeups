@@ -2,7 +2,8 @@
 
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** heap2win
-- **Category:** Pwn
+- **Category:** pwn
+- **Solved by:** [dopri](https://github.com/DoPri/)
 - **Remote:** `chals.cyberjousting.com:1364`
 
 The challenge ships a C++ binary and the full source in `main.cpp`. The program is a small "button factory" where you can create buttons and push them. Each button type is a subclass of `Button` with a virtual `push()` method. The goal is to get code execution; the interesting class is `WinnerButton`, which calls `system("/bin/sh")` when pushed.

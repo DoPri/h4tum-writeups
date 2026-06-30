@@ -3,6 +3,7 @@
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** yara
 - **Category:** Reverse Engineering
+- **Solved by:** [dopri](https://github.com/DoPri/)
 
 We are given `rule.yar`, a YARA rule named `fleg`, and `solve.py`, which reconstructs the matching string. There is no separate binary; the challenge is to find a byte sequence that satisfies every clause in the rule.
 

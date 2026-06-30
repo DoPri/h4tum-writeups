@@ -3,6 +3,7 @@
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** rcaas
 - **Category:** Reverse Engineering
+- **Solved by:** [dopri](https://github.com/DoPri/)
 
 We are given `rcaas`, a Go binary compiled with debug info (not stripped), and a partial disassembly excerpt in `run.asm` showing the core of `main.(*program).run`.
 

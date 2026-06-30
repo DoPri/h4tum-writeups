@@ -2,7 +2,8 @@
 
 - **Event:** [BYUCTF 2026](https://chals.cyberjousting.com) ([CTFTime](https://ctftime.org/event/3247/))
 - **Challenge:** hex-to-int
-- **Category:** Pwn
+- **Category:** pwn
+- **Solved by:** [dopri](https://github.com/DoPri/)
 - **Remote:** `chals.cyberjousting.com:1365`
 
 The challenge description jokes about a "vibe coded" hex converter that only implements conversions up to `0xff` and offers an "expand table" feature. We receive the `hex_to_int2` binary (not stripped).
